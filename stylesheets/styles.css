@@ -1,5 +1,126 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
+header img {
+  width: 225px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+header p {
+  font-size: 16px;
+}
+
+.social {
+  margin-bottom: 20px;
+}
+.social p {
+  margin: 0px;
+}
+
+.label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  background-color:#999
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+/* --- */
+
+.work .thumb {
+  float: left;
+}
+
+.work .thumb img {
+  width: 65px;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+}
+
+.work .header {
+  margin-left: 75px;
+}
+
+.work .title {
+  margin-bottom: 0px;
+  /*color: #888;*/
+}
+
+.work .link {
+  margin-bottom: 0px;
+}
+
+.work .tech {
+  margin-bottom: 0px;
+}
+
+.work .subtitle {
+  color: #888;
+}
+
+.crop {
+    width: 230px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.crop img {
+    width: 230px;
+    height: 200px;
+    margin: -75px 0 0 -100px;
+}
+
+.with-bg-size
+  {
+    background-image: url('images/guinness/guinness1.png');
+    width: 200px;
+    height: 100px;
+    background-position: center;
+
+    /* Make the background image cover the area of the <div>, and clip the excess */
+    background-size: cover;
+  }
+
+
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -21,7 +142,8 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size: 20px;
+  color:#393939;
 }
 
 h2 {
@@ -162,7 +284,7 @@ header ul a strong {
 section {
   width:500px;
   float:right;
-  padding-bottom:50px;
+  padding-bottom:10px;
 }
 
 small {
@@ -180,7 +302,7 @@ footer {
   width:270px;
   float:left;
   position:fixed;
-  bottom:50px;
+  bottom:10px;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -201,10 +323,10 @@ footer {
   }
   
   section {
-    border:1px solid #e5e5e5;
+    border-top:1px solid #e5e5e5;
     border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
+    padding: 10px 0;
+    margin:0 0 0px;
   }
   
   header a small {
