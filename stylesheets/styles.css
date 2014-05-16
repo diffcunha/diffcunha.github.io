@@ -65,60 +65,40 @@ header p {
 
 /* --- */
 
-.work .thumb {
-  float: left;
-}
-
-.work .thumb img {
-  width: 65px;
-  border-radius: 5%;
-  -webkit-border-radius: 5%;
-  -moz-border-radius: 5%;
+.work {
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
 
 .work .header {
-  margin-left: 75px;
+  height: 60px;
+  margin: 20px 0 20px;
 }
 
-.work .title {
+.work .header .thumb {
+  float: left;
+}
+
+.work .header .thumb img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #DDD;
+  /*
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  */
+}
+
+.work .header .title {
+  padding-left: 75px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.work .header .title * {
   margin-bottom: 0px;
-  /*color: #888;*/
 }
-
-.work .link {
-  margin-bottom: 0px;
-}
-
-.work .tech {
-  margin-bottom: 0px;
-}
-
-.work .subtitle {
-  color: #888;
-}
-
-.crop {
-    width: 230px;
-    height: 200px;
-    overflow: hidden;
-}
-
-.crop img {
-    width: 230px;
-    height: 200px;
-    margin: -75px 0 0 -100px;
-}
-
-.with-bg-size
-  {
-    background-image: url('images/guinness/guinness1.png');
-    width: 200px;
-    height: 100px;
-    background-position: center;
-
-    /* Make the background image cover the area of the <div>, and clip the excess */
-    background-size: cover;
-  }
 
 
 body {
