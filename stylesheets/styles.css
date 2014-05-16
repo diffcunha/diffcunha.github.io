@@ -83,11 +83,7 @@ header p {
   width: 60px;
   height: 60px;
   border: 1px solid #DDD;
-  /*
-  border-radius: 5%;
-  -webkit-border-radius: 5%;
-  -moz-border-radius: 5%;
-  */
+  opacity: 0.8;
 }
 
 .work .header .title {
@@ -100,6 +96,7 @@ header p {
   margin-bottom: 0px;
 }
 
+/* ----- */
 
 body {
   padding:50px;
