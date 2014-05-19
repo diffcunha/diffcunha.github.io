@@ -1,4 +1,28 @@
 $(document).ready(function() {
+  $('#nestible-shots').magnificPopup({
+    items: [{
+      src: 'images/nestible/nestible1.png'
+    }, {
+      src: 'images/nestible/nestible2.png'
+    }, {
+      src: 'images/nestible/nestible3.png'
+    }, {
+      src: 'images/nestible/nestible4.png'
+    }, {
+      src: 'images/nestible/nestible5.png'
+    }, {
+      src: 'images/nestible/nestible6.png'
+    }, {
+      src: 'images/nestible/nestible7.png'
+    }, {
+      src: 'images/nestible/nestible8.png'
+    }],
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true
+    },
+    type: 'image'
+  });
   $('#guinness-shots').magnificPopup({
     items: [{
       src: 'images/guinness/guinness1.png'
@@ -21,7 +45,7 @@ $(document).ready(function() {
       enabled: true,
       navigateByImgClick: true
     },
-    type: 'image' // this is default type
+    type: 'image'
   });
   $('#base-shots').magnificPopup({
     items: [{
@@ -39,6 +63,6 @@ $(document).ready(function() {
       enabled: true,
       navigateByImgClick: true
     },
-    type: 'image' // this is default type
+    type: 'image'
   });
 });
