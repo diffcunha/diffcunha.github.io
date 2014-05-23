@@ -1,3 +1,10 @@
+function show(selector) {
+  $(selector).show();
+}
+function hide(selector) {
+  $(selector).hide();
+}
+
 $(document).ready(function() {
   $('#nestible-shots').magnificPopup({
     items: [{
