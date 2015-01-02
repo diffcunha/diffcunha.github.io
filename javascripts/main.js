@@ -30,6 +30,30 @@ $(document).ready(function() {
     },
     type: 'image'
   });
+  $('#entrepsim-shots').magnificPopup({
+    items: [{
+      src: 'images/entrepsim/entrepsim1.png'
+    }, {
+      src: 'images/entrepsim/entrepsim2.png'
+    }, {
+      src: 'images/entrepsim/entrepsim3.png'
+    }, {
+      src: 'images/entrepsim/entrepsim4.png'
+    }, {
+      src: 'images/entrepsim/entrepsim5.png'
+    }, {
+      src: 'images/entrepsim/entrepsim6.png'
+    }, {
+      src: 'images/entrepsim/entrepsim7.png'
+    }, {
+      src: 'images/entrepsim/entrepsim8.png'
+    }],
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true
+    },
+    type: 'image'
+  });
   $('#guinness-shots').magnificPopup({
     items: [{
       src: 'images/guinness/guinness1.png'
