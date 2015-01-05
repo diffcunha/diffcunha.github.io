@@ -37,16 +37,6 @@ $(document).ready(function() {
       src: 'images/entrepsim/entrepsim2.png'
     }, {
       src: 'images/entrepsim/entrepsim3.png'
-    }, {
-      src: 'images/entrepsim/entrepsim4.png'
-    }, {
-      src: 'images/entrepsim/entrepsim5.png'
-    }, {
-      src: 'images/entrepsim/entrepsim6.png'
-    }, {
-      src: 'images/entrepsim/entrepsim7.png'
-    }, {
-      src: 'images/entrepsim/entrepsim8.png'
     }],
     gallery: {
       enabled: true,
